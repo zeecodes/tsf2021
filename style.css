@@ -1,0 +1,56 @@
+html{
+    font: 1rem arial;
+    background: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    padding-left: 2%;
+    width: 85vh;
+    background: white;
+    border-radius: 25px;
+}
+
+#log, form{
+    padding: 1%;
+    width: 50vh;
+}
+
+hr{
+    z-index: -1;
+}
+
+p{
+    line-height: 25px;
+    margin: 1%;
+}
+
+ul{
+    font: 1rem courier;
+    padding: 1%;
+    margin: 1%;
+    height: 40vh;
+    overflow-y: scroll;
+    width: 80vh;
+}
+
+button{
+    margin: 1%;
+}
+
+@media only screen and (max-width: 775px) {
+    html{
+        padding: 0%;
+        background: white;
+    }
+    body {
+        width: 100%;
+        margin: 5%;    
+        background: white;
+    }
+    ul{
+        font-size: 0.75rem;
+    }
+}
